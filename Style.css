@@ -1,0 +1,87 @@
+
+@font-face {
+    font-family: Montserrat;
+    src: url(https://fonts.google.com/specimen/Montserrat);
+  }
+  
+  body{
+    font-family: Montserrat ;
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box ;
+    
+}
+
+.main{
+    background-color: hsl(30, 38%, 92%);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 95vh;
+    gap: 50px;
+    
+
+}
+
+.firstcard{
+    border-radius: 20px;
+    max-height: fit-content;
+    width: 250px;
+    align-items: center;
+}
+
+
+.secondcard{
+    background-color: hsl(0, 0%, 100%);
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    height: fit-content;
+    width: 250px;
+    padding: 20px;
+     
+}
+
+img{
+height: 70vh;
+width: 300px;
+border-top-left-radius: 20px;
+border-bottom-left-radius: 20px;
+
+}
+
+.text{
+    color: hsl(212, 21%, 14%);
+}
+
+p{
+    color: hsl(228, 12%, 48%);
+}
+
+.btn{
+    background-color: hsl(158, 36%, 37%);
+    height: 45px;
+    width: 200px;
+    color: hsl(0, 0%, 100%);
+    border-radius: 8px;
+    border: none;
+}
+.btn > img{
+    height: 15px;
+    width: 10px;
+    padding: 3px;
+    
+}
+
+@media only screen and (max-width: 375px) {
+    .main{
+        display: block;
+        }
+        
+}
+
+@media only screen and (min-width: 1440px) {
+    .main{
+        display: flex;
+    }
+}
